@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('productos', ProductoController::class)->names('productos');
+//Route::resource('productos', ProductoController::class)->names('productos');
